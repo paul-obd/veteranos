@@ -2,6 +2,10 @@ function fetchit() {
 
     var ul = document.getElementById('ul');
     var rate = document.getElementById('dollar-rate').value;
+    if (rate == "") {
+        alert("Please put the dollar rate")
+      }
+    else{
   
   fetch('https://paul342021.herokuapp.com/fleasandticks')
     .then(response => response.json())
@@ -21,3 +25,4 @@ function fetchit() {
     }
       
     )}
+}

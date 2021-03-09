@@ -20,9 +20,29 @@
 
 
 function fetchit() {
+  var rate = document.getElementById('dollar-rate').value;
+
+  if (rate == "") {
+    alert("Please put the dollar rate")
+  }
+
+  else {
+
+  document.getElementById('btn').disabled = false;
+  document.getElementById('btn-1').disabled = false;
+  document.getElementById('btn-2').disabled = false;
+  document.getElementById('btn-3').disabled = false;
+  document.getElementById('btn-4').disabled = false;
+  document.getElementById('btn-5').disabled = false;
+  document.getElementById('btn-6').disabled = false;
+  document.getElementById('btn-7').disabled = false;
+  document.getElementById('btn-8').disabled = false;
+  document.getElementById('btn-9').disabled = false;
+  document.getElementById('btn-10').disabled = false;
+
 
     var ulv = document.getElementById('ul-v');
-    var rate = document.getElementById('dollar-rate').value;
+   
     
   
   fetch('https://paul342021.herokuapp.com/virbacdog')
@@ -302,7 +322,7 @@ function fetchit() {
       
     )
   
-  
+  }
   }
     // fetchit();
 

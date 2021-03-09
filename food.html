@@ -26,10 +26,12 @@
       </nav>
 </header>
 <body>
+    
     <div class="input-group mb-3 mt-2">
         <input type="text" class="form-control" placeholder="insert Dollar rate" aria-label="insert Dollar rate" aria-describedby="button-addon2" id="dollar-rate">
-        <button class="btn btn-dark" type="button" id="button-addon2" onclick="fetchit()">SUBMIT</button>
+        <button class="btn btn-dark" type="submit" id="button-addon2" onclick="fetchit()">SUBMIT</button>
       </div>
+    
 
       <div class="text-center p-2">
           <h2>
@@ -40,7 +42,7 @@
 
 <div class="d-grid gap-2">
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+<button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="btn" disabled>
     Virbac
   </button>
   
@@ -49,7 +51,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Virbac</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -64,7 +66,7 @@
   </div>
 
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-2">
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-2" id="btn-1" disabled>
     Medical Virbac
   </button>
   
@@ -73,7 +75,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Medical Virbac</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -88,7 +90,7 @@
   </div>
 
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-3">
+  <button  type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-3" id="btn-2" disabled>
     Ownat
   </button>
   
@@ -97,7 +99,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Ownat</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -112,7 +114,7 @@
   </div>
 
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-4">
+  <button   type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-4" id="btn-3" disabled>
     Ownat Classic
   </button>
   
@@ -121,7 +123,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Ownat Classic</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -136,7 +138,7 @@
     </div>
   </div>
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-5">
+  <button  type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-5" id="btn-4" disabled>
     Proformance
   </button>
   
@@ -145,7 +147,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Proformance</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -160,7 +162,7 @@
   </div>
 
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-6">
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-6" id="btn-5" disabled>
     Unica
   </button>
   
@@ -169,7 +171,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Unica</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -184,7 +186,7 @@
   </div>
 
 
-  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-7">
+  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-7"  id="btn-6" disabled>
     Equilibrio
   </button>
   
@@ -193,7 +195,7 @@
     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Equilibrio</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -217,7 +219,7 @@
 
 <div class="d-grid gap-2">
 
-    <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-8">
+    <button  type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-8"  id="btn-7" disabled>
         Virbac
       </button>
       
@@ -226,7 +228,7 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">Virbac</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -242,7 +244,7 @@
 
 
 
-      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-9">
+      <button  type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-9"  id="btn-8" disabled>
         Ownat
       </button>
       
@@ -251,7 +253,7 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">Ownat</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -267,7 +269,7 @@
 
 
 
-      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-10">
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-10" id="btn-9" disabled>
         Equilibrio
       </button>
       
@@ -276,7 +278,7 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">Equilibrio</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -291,7 +293,7 @@
       </div>
 
 
-      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-11">
+      <button  type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop-11" id="btn-10" disabled>
         Medical Virbac
       </button>
       
@@ -300,7 +302,7 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable ">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+              <h5 class="modal-title" id="staticBackdropLabel">Medical Virbac</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
